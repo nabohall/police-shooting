@@ -23,9 +23,25 @@
   </head>
   <body>
     <!-- You may want to put your title and additional informaiton here -->
+    <div class="container" id="table_area">
+    	<h1> 
+    		Police Shootings Comparison
+    	</h1>
+    </div>
     <div class="container">
+    	<p>
+    		This table and map were created using information provided from the crowdsourced police shooting data from 
+    		<a href="http://regressing.deadspin.com/deadspin-police-shooting-database-update-were-still-go-1627414202"
+    		target="_blank">deadspin</a>. We decided to focus on whether or not the victim was
+    		armed at the time of shooting, and were rather suprised by the number of unknown responses in the table.
+    	</p>
+
+    	<p>
+    	In the map below, the colors indicate if the victim was <span id="armed"> armed </span>
+    		or <span id="unarmed"> unarmed</span>. There are also filters that can hide or show circles based on race.
+    	</p>
       <!-- This is the div that your map will go in.  You'll need to reference its id -->
-      <div id="container"></div>
+      <div id="map_area"></div>
     </div>
     <script>
       

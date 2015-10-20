@@ -1,8 +1,27 @@
 /* You'll probably want to add some styles here */
-#container {
+body {
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #f4f4f4;
+}
+
+table, h1, p {
+	text-align: center;
+}
+
+.header {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#map_area {
 	height:800px;
 }
 
-#kill {
-	fill: red;
+#armed {
+	color: #fb0303;
+}
+
+#unarmed {
+	color: #328eff;
 }
