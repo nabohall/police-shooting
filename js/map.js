@@ -23,8 +23,8 @@ var getData = function(map) {
   //Execute an AJAX request to get the data in data/response.js
   $.ajax({
   	url:'/data/response.json',
-  	type:"get",
-  	dataType:"json",
+  	type:'get',
+  	dataType:'json',
   	success:function(dat){
   		customBuild(map, dat);
   	}
