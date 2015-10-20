@@ -135,7 +135,7 @@ var makeLayers = function(d, layers) {
 		});
 
 		var popupInfo = name + ' - ' + age + ' - ' + armed + "<br>" + summary + "<br>";
-		circle.bindPopup("<p>" + popupInfo + "<a href= + " + link + " target='_blank'> (See more) </a> </p>");
+		circle.bindPopup("<p>" + popupInfo + "<a href='" + link + "' target='_blank'> (See more) </a> </p>");
 
 		circle.addTo(layers[race]);
 	} else {
@@ -147,7 +147,7 @@ var makeLayers = function(d, layers) {
 		});
 
 		var popupInfo = name + ' - ' + age +' - ' + armed + "<br>" + summary + "<br>";
-		circle.bindPopup("<p>" + popupInfo + "<a href=" + link + " target='_blank'> (See more) </a> </p>");
+		circle.bindPopup("<p>" + popupInfo + "<a href='" + link + "' target='_blank'> (See more) </a> </p>");
 
 		circle.addTo(layers[race]);
 	}
