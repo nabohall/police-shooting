@@ -24,10 +24,10 @@ var getData = function(map) {
   $.ajax({
   	url:'/data/response.json',
   	type:"get",
+  	dataType:"json",
   	success:function(dat){
   		customBuild(map, dat);
-  	},
-  	dataType:"json"
+  	}
   });
 
   // When your request is successful, call your customBuild function
