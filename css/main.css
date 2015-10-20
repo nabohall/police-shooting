@@ -2,3 +2,7 @@
 #container {
 	height:800px;
 }
+
+#kill {
+	fill: red;
+}
